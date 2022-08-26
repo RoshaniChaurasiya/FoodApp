@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import UseEffect from './Components/Hooks/UseEffect'
+// import UseReducer from './Components/Hooks/UseReducer'
+import Resturant from './Components/Basics/Resturant'
+// import UseState from './Components/Hooks/UseState'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+     <Resturant/>
+    {/* <UseState/> */}
+    {/* <UseEffect/> */}
+    {/* <UseReducer/> */}
+    </>
+  )
 }
 
-export default App;
+export default App
+
